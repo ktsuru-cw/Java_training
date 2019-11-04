@@ -1,4 +1,4 @@
-# Java_training
+# Java研修
 
 ## 研修予定一覧
 
@@ -51,4 +51,30 @@ javac HelloWorld.java
 java HelloWorld
 ```
 
-[Question01](/questions/01_question.html)
+## プログラムの書き方
+
+### インデント
+
+example.01
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
+```
+
+example.02
+```java
+public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello world");
+}
+}
+```
+
+読みやすい綺麗なプログラムはどちらでしょうか？
+正解はexample.01です。
+インデントとはプログラミングにおいてプログラムの構造を明らかにするため、
+空白、もしくはタブなどで「字下げ」をすることです。
+これによりどの処理がどこで終了しているのかが一目で分かります。
