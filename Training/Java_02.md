@@ -21,7 +21,7 @@
 |++|インクリメント|x = 1; x++; // 2
 |--|デクリメント|x = 1; x--; // 0
 
-[question2](questions/02_question.html)
+[question2](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_02.md)
 
 ### 型変換
 
