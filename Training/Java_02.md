@@ -21,7 +21,6 @@
 |++|インクリメント|x = 1; x++; // 2
 |--|デクリメント|x = 1; x--; // 0
 
-[question2](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_02.md)
 
 ### 型変換
 
@@ -59,7 +58,7 @@ String str = "猫の大吉の体重は" + 5 + "kg";
 この場合は、+より*の方が優先順位が高いですが、()で囲われている中の評価がより優先順位が高いです。  
 計算の順番としては、`(1 + 4 + 3)`がまず評価されます。続いて`5 * 2`が評価されます。そして、‘8 + 10`が評価されます。
 
-[question3](questions/03_question.html)
+[question2](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_02.md)
 
 ### インクリメント、デクリメント
 
