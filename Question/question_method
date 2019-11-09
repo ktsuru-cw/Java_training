@@ -14,8 +14,17 @@ public class Main {
         int buttom = 7;
 	int hight = 5;
 	int menseki = 0;
+	
+	// TO DO
+	
+	System.out.println(menseki);
     }
 
+    public static int Calculate(int x, int y) {
+        // TO DO
+	
+	return // TO DO
+    }
 }
 ```
 
