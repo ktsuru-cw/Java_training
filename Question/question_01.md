@@ -2,7 +2,7 @@
 
 ## HelloWorldを出力してください
 
-・ 変数strを宣言し、"HelloWorld"という文字列を代入する
+・ 変数strを宣言し、"HelloWorld"という文字列を代入する  
 ・ 変数strを出力する
 
 * 資料を参考にしながらで良い
