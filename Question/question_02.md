@@ -5,4 +5,4 @@
 * 変数を使うこと
 * 縦に横をかけて面積を算出
 
-[Answer Example](./02_answer.html)
+[answer_02 Example](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_02.md)
