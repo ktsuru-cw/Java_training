@@ -207,6 +207,4 @@ if (num == 1) {
 `int num`変数を作成して、値を代入しています。  
 numの値によって処理内容の分岐を決めています。
 
----
-
 [question3](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_03.md)
