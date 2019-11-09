@@ -70,4 +70,4 @@ Medium
 Small
 ```
 
-[answer_02 Example](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_03.md)
+[answer_03 Example](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_03.md)
