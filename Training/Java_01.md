@@ -149,4 +149,6 @@ public class VariableTest {
 }
 ```
 
+[question_01](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_01.md)
+
 ---
