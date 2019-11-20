@@ -78,7 +78,7 @@ System.out.println("Hello world");
 
 ### 基本構造
 
-example.01を例にJavaプログラミングの基本構造を説明します。
+①を例にJavaプログラミングの基本構造を説明します。
 ```java
 // Javaプログラミング
 class HelloWorld {
