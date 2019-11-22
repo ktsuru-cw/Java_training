@@ -8,17 +8,18 @@
 int hanakoAge;
 ```
 
-これで、int型の`hanakoAge`変数が宣言できました。  `int`は、整数を扱う型なので`hanakoAge`は、整数を扱う変数となります。
+これで、int型の`hanakoAge`変数が宣言できました。  
+`int`は、整数を扱う型なので`hanakoAge`は、整数を扱う変数となります。
 
 ### いい変数名　わるい変数名
 
 変数名は、自由に付けることができます。ただし、以下のルールがあります。
 
-- 予約後は使用できない。（`public, private, int, String...`)
-- 先頭文字に数値は使えない。
+- 予約後は使用できない（`public, private, int, String...`)
+- 先頭文字に数値は使えない
 - camelCase記法を使う
     - 英字小文字を使う
-    - 言葉の区切りだけ大文字にする。
+    - 言葉の区切りだけ大文字にする
 
 camelCase記法は、単語と単語を組み合わせて変数名に意味を持たせるようにします。
 
@@ -75,9 +76,7 @@ int hanakoAge = 3;
 変数は更新が可能なので、`hanakoAge`を4で更新してみましょう。
 
 ```java
-int hanakoAge;
-
-hanakoAge = 3;
+int hanakoAge = 3;
 
 hanakoAge = 4;
 ```
@@ -134,7 +133,7 @@ int i = 5;
 が、
 
 int型で変数を宣言した時点で32bit分の領域が確保されたあとは、ずっと32bit分の領域を使って変数を取り扱います。
-なので変数`i`に`5`を代入すると前に0をたくさんつけて表示します。
+なので変数`i`に`5`を代入すると前に0をたくさんつけてメモリに格納されます。
 
 `00000000000000000000000000000101`が`int i = 5;`の`i`を32bitで表す情報です。
 intの変数は、変数が使われている間は32bitの領域を確保しているので、32bit分の整数を代入可能な状態となっています。
@@ -149,6 +148,6 @@ public class VariableTest {
 }
 ```
 
-[question_01](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_01.md)
+[question_01_"HelloWorld"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_01.md)
 
 ---
