@@ -12,4 +12,4 @@ __* 変数strを出力する__
 ・半角全角の違いに注意する  
 ・行の最後に`;`セミコロンを忘れずに
 
-[Answer_01 Example](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_01.md)
+[Answer_01 Example_"HelloWorld"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_01_%22HelloWorld%22.md)
