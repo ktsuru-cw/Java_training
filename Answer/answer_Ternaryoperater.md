@@ -52,11 +52,11 @@ System.out.println(age >= 20 || student == true ? "OK" : "NG");
 ```java
 // if文
 String drink = "";
-if (drink == "お茶") {
+if (drink.equals("お茶")) {
   System.out.println("これはお茶です");
 } else if (drink.equals("コーヒー")) {
   System.out.println("これはコーヒーです");
-} else if (drink == "ジュース") {
+} else if (drink.equals("ジュース")) {
   System.out.println("これはジュースです");
 } else {
   System.out.println("これは飲み物です");
@@ -66,9 +66,9 @@ if (drink == "お茶") {
 // 三項演算子
 String drink = "";
 System.out.println(
-    drink == "お茶" ? "これはお茶です" : 
-    drink == "コーヒー" ? "これはコーヒーです" : 
-    drink == "ジュース" ? "これはジュースです" : 
+    drink.equals("お茶") ? "これはお茶です" : 
+    drink.equals("コーヒー") ? "これはコーヒーです" : 
+    drink.equals("ジュース") ? "これはジュースです" : 
     "これは飲み物です"
 );
 ```
