@@ -35,7 +35,7 @@ System.out.println(result);
 ​
 ①では`age`が`20以上`であれば「`20以上です`」、そうでなければ「`20未満です`」を出力します。  
 ②では`gender`が`boy`であれば「`男の子です`」、そうでなければ「`女の子です`」を出力します。  
-③では`japan`が`true`であれば「`日本人です`」、`false`であれば「`20未満です`」を出力します。  
+③では`japan`が`true`であれば「`日本人です`」、`false`であれば「`日本人ではありません`」を出力します。  
   
 ​
 上の３つのif文を三項演算子にしてみます。      
@@ -51,7 +51,7 @@ System.out.println(gender == "boy" ? "男の子です" : "女の子です");
 ​
 // 三項演算子③
 boolean japan = true;
-System.out.println(japan == "boy" ? "男の子です" : "女の子です");
+System.out.println(japan == "boy" ? "日本人です" : "日本人ではありません");
 ```
 ①を例に挙げて解説すると`age >= 20 ?`がif文の`if (age >= 20)`の役割をしています。  
 また、`age`が`20以上`だった場合は`20歳以上です`を出力し、`0～19`の場合は`20歳未満です`を出力しています。`:`はif文の`else`の役割をしています。
@@ -65,11 +65,11 @@ if文では何行も書かなければいけなかった文が三項演算子で
 ```java
 // if文
 String drink = "";
-if (drink == "お茶") {
+if (drink.equals("お茶")) {
   System.out.println("これはお茶です");
-} else if (drink.equals("コーヒー")) {   // == or equals 確認
+} else if (drink.equals("コーヒー")) {
   System.out.println("これはコーヒーです");
-} else if (drink == "ジュース") {
+} else if (drink.equals("ジュース")) {
   System.out.println("これはジュースです");
 } else {
   System.out.println("これは飲み物です");
@@ -85,9 +85,9 @@ if (drink == "お茶") {
 // 三項演算子
 String drink = "お茶";
 System.out.println(
-    drink == "お茶" ? "これはお茶です" : 
-    drink == "コーヒー" ? "これはコーヒーです" : 
-    drink == "ジュース" ? "これはジュースです" : 
+    drink.equals("お茶") ? "これはお茶です" : 
+    drink.equals("コーヒー") ? "これはコーヒーです" : 
+    drink.equals("ジュース") ? "これはジュースです" : 
     "これは飲み物です"
 );
 ``` 
@@ -117,7 +117,9 @@ int scoreA, scoreB, scoreC, scoreD, scoreE;
 ```
 ​
 でもやっぱり、同じような目的の変数をいくつも用意するのは面倒です。
-そんな時は配列を使うと便利です。
+そんな時は配列を使うと便利です。  
+基本的に同じ意味(使い方)をしている変数のみを配列にします。  
+異なる意味(年齢、身長、体重とか)は同じint型の変数でも同じ配列にまとめてしまうとバグの原因になります。
 ​
 ### 配列の宣言と初期化
 ​
@@ -185,13 +187,7 @@ int[] scores = {90, 45, 72, 85, 64};
 配列を出力する場合は、
 
 ```java
-int[] scores = new int[5];
-​
-scores[0] = 90;
-scores[1] = 45;
-scores[2] = 72;
-scores[3] = 85;
-scores[4] = 64;
+int[] scores = {90, 45, 72, 85, 64};
 ​
 System.out.println(scores[3]);
 ```
@@ -206,7 +202,7 @@ System.out.println(scores[3]);
 ## 繰り返し for
 
 for文は、繰り返しの処理です。
-for文無しで書くと、
+2の5乗をfor文無しで書くと、
 
 ```java
 int result = 1;
@@ -229,13 +225,21 @@ int result = 1;
 ​
 for(int i = 0; i < 5; i++) {
     result = result * 2;
-    System.out.println("2の5乗 : " + result);
 }
+
+System.out.println("2の5乗 : " + result);
+
 ```
 ​
-for文はコンピューターの真骨頂といえるかもしれません。人間だと同じ事を何回もしていたら飽きてしまうし、間違えます。プルグラムによる処理なら飽きもせずに同じ処理を何万回でもすることができ、間違えることもなく高速です。
+for文はコンピューターの真骨頂といえるかもしれません。人間だと同じ事を何回もしていたら飽きてしまうし、間違えます。プログラムによる処理なら飽きもせずに同じ処理を何万回でもすることができ、間違えることもなく高速です。
 ​
-for文は、for(初期設定; 条件; 継続処理){処理}と書きます。  
+**for文は、  
+for(初期設定; 条件; 継続処理)  
+{  
+    処理  
+}  
+と書きます。**    
+
 例でみると初期設定では、for文の中だけで使うint型の変数iを変数宣言して、同時に初期化で`0`を代入しています。  
 条件は比較演算子で`i < 5`なので、`i`が`5`未満の間は`true`を返して、`{}`ブロック内の処理を実行します。`i`が`5`以上になると`false`を返して、`for`文を抜けて次の処理にいきます。  
 継続処理についてですが、ブロックの処理が一番最後まで実行されたら、継続処理が実行されます。`i++`と書いているので、ブロックの処理が終わるごとで`i`に`1`が加算されます。  
@@ -251,8 +255,10 @@ int n = 5;
 ​
 for(int i = 0; i < n; i++) {
     result = result * 2;
-    System.out.println("2の" + n + "乗 : " + result);
 }
+
+System.out.println("2の" + n + "乗 : " + result);
+
 ```
 ​
 改造前と比べると、変数`n`の初期化の値を変えるだけで`n`乗を自由に変更できます。
@@ -329,7 +335,7 @@ System.out.println(scores[1]);
 int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ​
 for(int i = 0; i < numbers.length; i++) {
-    int number = nunumbers[i] + 5;
+    int number = nunumbers[i] + 5; // 各要素に+5した値をnumberに代入⇒出力
     System.out.println(number);
 }
 ```
@@ -341,7 +347,7 @@ for(int i = 0; i < numbers.length; i++) {
 int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ​
 for(int number : numbers) {
-    numbers += 5;
+    number += 5;
     System.out.println(number);
 }
 ```
@@ -350,6 +356,9 @@ for(int number : numbers) {
 この拡張for文では配列`scores`の値一つ一つを`score`という変数に代入して出力しています。  
 添え字の`i`を用意する必要もなく、`.length`などで配列の要素がいくつあるのか意識する必要がありません。
 ただ、普通のfor文のように`[i]`がないので配列の何番目か指定できません。  
-また、新たに変数を用意しなくても配列内のすべての値一つ一つに同じ処理をすることもできます。
+また、新たに変数を用意しなくても配列内のすべての値一つ一つに同じ処理をすることもできます。  
+
+現時点ではどこが便利なのかピンと来ないかもしれませんが、  
+今後新人研修や現場でListやイテレータを使う際に使い勝手がよいので拡張for文の書き方は覚えておきましょう。
 
 ---
