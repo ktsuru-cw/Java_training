@@ -16,7 +16,7 @@ System.out.println(result);
 ​
 // if文②
 String gender = "redy";
-if (gender == "boy") {
+if (gender.equals("boy")) {
     result = "男の子です";
 } else {
     result = "女の子です";
@@ -47,7 +47,7 @@ System.out.println(age >= 20 ? "20歳以上です" : "20歳未満です");
 ​
 // 三項演算子②
 String gender = "redy";
-System.out.println(gender == "boy" ? "男の子です" : "女の子です");
+System.out.println(gender.equals("boy") ? "男の子です" : "女の子です");
 ​
 // 三項演算子③
 boolean japan = true;
