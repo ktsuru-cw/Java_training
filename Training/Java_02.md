@@ -143,6 +143,7 @@ System.out.println(i); // 6・・・④
 |演算子|概要|例
 |:--|:--|:--
 |==|左辺と右辺が等しければtrue|5 == 5 // true
+|equals|Stringクラス内部でchar文字を比較する関数、左辺と右辺が等しければtrue|"str" == "str" // true
 |!=|左辺と右辺が等しくなければtrue|5 != 5 // false
 |<|左辺が右辺より小さければtrue|5 < 7 // true
 |<=|左辺が右辺以下であればtrue|5 <= 3 // false
