@@ -58,7 +58,7 @@ String str = "猫の大吉の体重は" + 5 + "kg";
 この場合は、+より*の方が優先順位が高いですが、()で囲われている中の評価がより優先順位が高いです。  
 計算の順番としては、`(1 + 4 + 3)`がまず評価されます。続いて`5 * 2`が評価されます。そして、‘8 + 10`が評価されます。
 
-[question2](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_02.md)
+[question2_"演算子"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question02_%22%E6%BC%94%E7%AE%97%E5%AD%90%22.md)
 
 ### インクリメント、デクリメント
 
