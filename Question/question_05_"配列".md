@@ -57,4 +57,4 @@ for (int i = 0; i < scores.length; i++) {
 }
 ```
 
-[answer_04 Example_"配列"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_05_%22%E9%85%8D%E5%88%97%22.md)
+[answer_05 Example_"配列"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_05_%22%E9%85%8D%E5%88%97%22.md)
