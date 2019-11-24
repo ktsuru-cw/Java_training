@@ -20,7 +20,7 @@ public class Main {
 	System.out.println(menseki);
     }
 
-    public static int Calculate(int x, int y) {
+    public static float Calculate(int x, int y) {
         // TO DO
 	
 	return // TO DO
