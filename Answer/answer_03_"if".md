@@ -14,7 +14,7 @@ if (age >= 20) {
 ```java
 int age = 20;
 boolean student = true;
-if (age >= 20 || student == true) {
+if (age >= 20 || student == true) { // "age >= 20 || student"でも可
     System.out.println("OK");
 } else {
     System.out.println("NG");
@@ -24,11 +24,11 @@ if (age >= 20 || student == true) {
 ## if_③
 ```java
 String drink = "";
-if (drink == "お茶") {
+if (drink.equals("お茶")) {
   System.out.println("これはお茶です");
 } else if (drink.equals("コーヒー")) {
   System.out.println("これはコーヒーです");
-} else if (drink == "ジュース") {
+} else if (drink.equals("ジュース")) {
   System.out.println("これはジュースです");
 } else {
   System.out.println("これは飲み物です");
