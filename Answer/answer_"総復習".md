@@ -1,6 +1,6 @@
 # answer
 
-01.
+01.以下の文章を出力しましょう
 ```java
 public class Main {
 
@@ -13,7 +13,7 @@ public class Main {
 }
 ```
 
-02.
+02.三角形の幅、高さの整数を変数宣言し、以下を表示させましょう
 ```java
 public class Main {
 
@@ -36,7 +36,7 @@ public class Main {
 }
 ```
 
-03.
+03.10と3の2つの整数を変数宣言し、算術演算子を使用して以下のように表示させましょう
 ```java
 public class Main {
 
@@ -54,7 +54,7 @@ public class Main {
 }
 ```
 
-04.
+04.繰返し処理で以下を表示させましょう
 ```java
 public class Main {
 	
@@ -69,7 +69,7 @@ public class Main {
 }
 ```
 
-05.
+05.掛け算九九を 表示させましょう
 ```java
 public class Main{
 
@@ -85,7 +85,7 @@ public class Main{
 }
 ```
 
-06.
+06.西暦(任意を変数宣言し、うるう年かどうか判別し、以下を表示させましょう（うるう年は、4で割切れ、かつ、100で割切ることができません）
 ```java
 public class Main {
 	public static void main(String args[]) {
@@ -101,7 +101,7 @@ public class Main {
 }
 ```
 
-07.
+07.5人分の点数の配列を宣言し、以下を表示させましょう(for文を使用)
 ```java
 public class Main {
     public static void main(String args[]) {
@@ -117,7 +117,7 @@ public class Main {
 }
 ```
 
-08.
+08.同数の氏名の配列を宣言し、以下を表示させましょう
 ```java
 public class Main {
 	public static void main(String args[]) {
@@ -136,7 +136,7 @@ public class Main {
 }
 ```
 
-09.
+09.5つの文字型の配列をカンマ区切りで表示しましょう(拡張for文を使用)
 ```java
 public class Main {
 	public static void main(String[] args) {
@@ -156,7 +156,7 @@ public class Main {
 }
 ```
 
-10.
+10.メインメソッドから引数を渡して、氏名と年齢を出力するプログラムを作成しましょう
 ```java
 public class Main {
 	public static void main(String[] args) {
