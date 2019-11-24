@@ -1,4 +1,4 @@
-# answer_04
+# answer_08
 
 ```java
 public class Main {
@@ -13,8 +13,8 @@ public class Main {
 	System.out.println(menseki);
     }
 
-    public static int Calculate(int x, int y) {
-        int result = x * y;
+    public static float Calculate(int x, int y) {
+        int result = (x * y) / 2;
 	
 	return result;
     }
