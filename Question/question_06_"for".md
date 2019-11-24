@@ -59,4 +59,4 @@ for ( /* TODO */ ) {
 　・5の倍数の時にbuzz    
 　・3と5の倍数の時にfizzbuzz    
 
-[answer_04 Example_"for"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_06_%22for%22.md)
+[answer_06 Example_"for"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_06_%22for%22.md)
