@@ -162,14 +162,14 @@ public class Main {
 	public static void main(String[] args) {
 
 		String name = "花子さん";
-    int age = 15;
+    		int age = 15;
 
-    output(name, age);
+    		output(name, age);
 	}
   
-  public static void output(String name, int age) {
+	public static void output(String name, int age) {
   
-    System.out.println(name + "は" + age + "歳です。");
+		System.out.println(name + "は" + age + "歳です。");
     
 	}
 }
