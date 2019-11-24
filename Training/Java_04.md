@@ -16,9 +16,17 @@
 }
 ```
 
-example
+戻り値を返すメソッド
 ```java
-public int sample(int num){
+public int increment(int num){
+    num++;
+    return num;
+}
+```
+
+戻り値を返さないメソッド
+```java
+public void increment(int num){
     num++;
     return num;
 }
@@ -35,7 +43,7 @@ public int sample(int num){
 ```java
 int num = 5;
 
-sample(num);
+increment(num);
 ```
 
 
@@ -47,7 +55,7 @@ sample(num);
 int Status = 0;
 int num = 5;
 
-Status = sample(num);
+Status = increment(num);
 ```
 
 ### メソッドに引数を使って値を渡す方法
