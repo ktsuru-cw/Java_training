@@ -107,3 +107,5 @@ public class Main {
 ```
 
 このプログラムでは戻り値を使って、メソッドで足し算した結果を呼び出し元に返して表示しています。
+
+[question_08_"メソッド"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_08_%22%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%22.md)
