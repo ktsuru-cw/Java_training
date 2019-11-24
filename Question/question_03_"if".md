@@ -70,4 +70,4 @@ Medium
 Small
 ```
 
-[answer_03 Example](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_03_%22if%22.md)
+[answer_03 Example_"if"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_03_%22if%22.md)
