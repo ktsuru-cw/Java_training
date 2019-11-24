@@ -94,3 +94,5 @@ Eさんは、 100 点です。 【合格】
 ・渡された引数を使用し、出力するメソッドを作成する
 (例)花子さんは15歳です。
 ```
+
+[question_"総復習"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_%22%E7%B7%8F%E5%BE%A9%E7%BF%92%22.md)
