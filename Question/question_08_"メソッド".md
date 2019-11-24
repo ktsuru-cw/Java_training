@@ -28,4 +28,4 @@ public class Main {
 }
 ```
 
-[answer_04](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_04.md)
+[answer_08_"メソッド"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_08_%22%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%22.md)
