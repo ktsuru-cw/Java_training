@@ -28,7 +28,6 @@ public int increment(int num){
 ```java
 public void increment(int num){
     num++;
-    return num;
 }
 ```
 
