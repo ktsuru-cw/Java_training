@@ -36,11 +36,11 @@ if ( /* TODO */ ) {
 
 ```java
 String drink = "";
-if (drink == "お茶") {
+if (drink.equals("お茶")) {
   System.out.println("これはお茶です");
 } /* TODO */ (drink.equals("コーヒー")) {
   System.out.println("これはコーヒーです");
-} /* TODO */ (drink == "ジュース") {
+} /* TODO */ (drink.equals("ジュース")) {
   System.out.println("これはジュースです");
 } else {
   System.out.println("これは飲み物です");
@@ -61,11 +61,11 @@ if (drink == "お茶") {
 ```java
 Large
 ```
-### hight=180の場合の実行結果
+### hight=170～179の場合の実行結果
 ```java
 Medium
 ```
-### hight=180の場合の実行結果
+### hight=169以下の場合の実行結果
 ```java
 Small
 ```
