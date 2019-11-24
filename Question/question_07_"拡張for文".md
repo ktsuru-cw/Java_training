@@ -18,3 +18,5 @@ for ( /* TODO */ ) {
 ```java
 int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ```
+
+[answer_07 Example_"拡張for"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_07_%22%E6%8B%A1%E5%BC%B5for%E6%96%87%22.md)
