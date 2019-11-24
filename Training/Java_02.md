@@ -15,7 +15,7 @@
 |+|加算|1 + 2 // 3
 |-|減算|5 - 2 // 3
 |*|乗算|3 * 4 // 12
-|/|除算|5 / 2 // 2.5
+|/|除算|5 / 2 // 2
 |%|剰余|5 % 2 // 1
 |+|文字列の連結|“A” + “B” // AB
 |++|インクリメント|x = 1; x++; // 2
@@ -74,8 +74,7 @@ i++は、
 
 ```java
 i = i + 1;
-i += 1;
-i++;
+i += 1;   // 詳しくは以下の代入演算子を参照
 ```
 
 これらと同じです。
@@ -90,8 +89,7 @@ i--;
 
 ```java
 i = i - 1;
-i -= 1;
-i--;
+i -= 1;   // 詳しくは以下の代入演算子を参照
 ```
 
 これらと同じです。
@@ -209,4 +207,4 @@ if (num == 1) {
 `int num`変数を作成して、値を代入しています。  
 numの値によって処理内容の分岐を決めています。
 
-[question3](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_03.md)
+[question3_"if"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_03_%22if%22.md)
