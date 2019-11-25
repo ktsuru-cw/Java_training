@@ -21,11 +21,11 @@ scores[ /* TODO */ ] = 64;
 ```java
 int[] scores = new int[5];
 
-scores[0] = 90;
-scores[1] = 45;
-scores[2] = 72;
-scores[3] = 85;
-scores[4] = 64;
+scores[ /* TODO */ ] = 90;
+scores[ /* TODO */ ] = 45;
+scores[ /* TODO */ ] = 72;
+scores[ /* TODO */ ] = 85;
+scores[ /* TODO */ ] = 64;
 
 System.out.println(scores[ /* TODO */ ]);
 ```
@@ -50,7 +50,7 @@ for ( /* TODO */ ) {
 ```java
 int[] scores = {90, 45, 72, 85, 64};
 
-for (int i = 0; i < scores.length; i++) {
+for ( /* TODO */ ) {
     if ( /* TODO */ ) {
         System.out.println(scores[i]);
     }
