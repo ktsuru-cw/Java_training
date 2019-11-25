@@ -151,7 +151,7 @@ System.out.println(i); // 6・・・④
 |>|左辺が右辺より大きければtrue|7 > 5 // true
 |>=|左辺が右辺以上であればtrue|5 >= 7 // false
 
-結果は、`boolean`だよ。
+結果は、`boolean`で表されます。
 
 ### 論理演算子
 
