@@ -76,12 +76,14 @@ for (int i = 100; i >= 1; i--) {
 ```java
 for (int i = 1; i < 100; i++) {
     if (i % 15 == 0) {
-    //if(number % 3 == 0 && number % 5 == 0) でもOK！
+    //if(i % 3 == 0 && i % 5 == 0) でもOK！
         System.out.println("fizzbuzz");
     } else if (i % 3 == 0) {
         System.out.println("fizz");
     } else if (i % 5 == 0) {
         System.out.println("buzz");
-    } 
+    } else {
+        System.out.println(i);
+    }
 }
 ```
