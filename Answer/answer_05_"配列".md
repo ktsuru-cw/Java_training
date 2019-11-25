@@ -31,7 +31,7 @@ System.out.println(scores[2]);
 ```
 
 ## 配列&for文
-●配列scoresの値すべてをfor文を利用して出力してください。    
+●配列scoresの値すべてをfor文で出力してください。    
 ● /* TODO */ の部分を埋めてください。  
 
 ```java
@@ -44,7 +44,7 @@ for (int i = 0; i < scores.length; i++) {
 ```
 
 ## 配列&if文
-●配列scoresの値をfor文を利用して出力してください。  
+●配列scoresの値をfor文で出力してください。  
 ●配列scoresの値の中でも偶数のものだけを出力してください。  
 ● /* TODO */ の部分を埋めてください。  
 
