@@ -2,7 +2,7 @@
 # answer_02
 
 長方形の面積を求めて画面に表示するプログラムを作成してください。  
-(例.01)
+(例1)
 ```java
 public class Main {
  
@@ -17,7 +17,7 @@ public class Main {
 }
 ```
 
-(例.02)
+(例2)
 ```java
 public class Main {
  
