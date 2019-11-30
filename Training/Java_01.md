@@ -88,7 +88,7 @@ hanakoAge = 4;
 ```java
 public class JavaTraining {
     public static void main(String[] args) {
-        // 変数の選言と初期化
+        // 変数の宣言と初期化
         int hanakoAge = 3;
         System.out.println("初期化直後　花子の年齢 : " + hanakoAge);
 
@@ -116,6 +116,8 @@ public class JavaTraining {
 |文字型|char|16ビットUnicode文字|\u0000 ～ \uFFFF
 |論理型|boolean|真偽値|「true」 or 「false」
 |文字列型|String|文字列|扱えるデータの長さはint型と同じ（約21億）
+
+※`String`はプリミティブ型ではないですが、便宜上ここで説明します。
 
 ```java
 int i;
