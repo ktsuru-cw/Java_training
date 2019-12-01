@@ -95,6 +95,8 @@ System.out.println(
 複雑なif文は三項演算子にすると逆に分かりにくくなってしまう場合があります。
 見間違いなどを防ぐためにも、上記のような条件がいくつもある場合は三項演算子は利用せずif文を使いましょう。  
 
+[question_04_"三項演算子"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_04_%22%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90%22.md)
+
 ---
 ## 配列
 ​
@@ -196,6 +198,8 @@ System.out.println(scores[3]);
 
 配列は繰り返し文と組み合せての使用がよくあります。
 次の繰り返し文もしっかりと修得しましょう。
+
+[question_05_"配列"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_05_%22%E9%85%8D%E5%88%97%22.md)
 
 ---
 
@@ -324,6 +328,8 @@ System.out.println(scores[1]);
 `i`が`4`の時、最後の配列要素である`scores[4]`の出力が実行され、`i++`で`i`が`5`になると、`5 < 5` は条件を満たさず`false`となり、for文の処理を終了します。
 これで全ての配列要素に対して処理を実行して、次の処理へ移る処理ができるようになりました。
 
+[question_06_"for"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_06_%22for%22.md)
+
 ---
 ### 拡張for文(foreach文)
 ​
@@ -360,5 +366,7 @@ for(int number : numbers) {
 
 現時点ではどこが便利なのかピンと来ないかもしれませんが、  
 今後新人研修や現場でListやイテレータを使う際に使い勝手がよいので拡張for文の書き方は覚えておきましょう。
+
+[question_07_"拡張for文"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_07_%22%E6%8B%A1%E5%BC%B5for%E6%96%87%22.md)
 
 ---
