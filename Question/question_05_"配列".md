@@ -30,31 +30,4 @@ scores[ /* TODO */ ] = 64;
 System.out.println(scores[ /* TODO */ ]);
 ```
 
-## 配列&for文
-●配列scoresの値すべてをfor文で出力してください。   
-● /* TODO */ の部分を埋めてください。  
-
-```java
-int[] scores = {90, 45, 72, 85, 64};
-
-for ( /* TODO */ ) {
-    System.out.println(scores[i]);
-}
-```
-
-## 配列&for文&if文
-●配列scoresの値をfor文で出力してください。  
-●配列scoresの値の中でも偶数のものだけを出力してください。  
-● /* TODO */ の部分を埋めてください。  
-
-```java
-int[] scores = {90, 45, 72, 85, 64};
-
-for ( /* TODO */ ) {
-    if ( /* TODO */ ) {
-        System.out.println(scores[i]);
-    }
-}
-```
-
 [answer_05 Example_"配列"](https://github.com/ktsuru-cw/Java_training/blob/master/Answer/answer_05_%22%E9%85%8D%E5%88%97%22.md)
