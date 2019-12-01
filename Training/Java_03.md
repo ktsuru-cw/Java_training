@@ -98,6 +98,7 @@ System.out.println(
 [question_04_"三項演算子"](https://github.com/ktsuru-cw/Java_training/blob/master/Question/question_04_%22%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90%22.md)
 
 ---
+
 ## 配列
 ​
 テストでAさん、Bさん、Cさん、Dさん、Eさんの５人の点数を管理するプログラムを作りたいとします。
