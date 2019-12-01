@@ -29,19 +29,3 @@ scores[4] = 64;
 
 System.out.println(scores[2]);
 ```
-
-## 配列&if文
-●配列scoresの値をfor文で出力してください。  
-●配列scoresの値の中でも偶数のものだけを出力してください。  
-● /* TODO */ の部分を埋めてください。  
-
-```java
-int[] scores = {90, 45, 72, 85, 64};
-
-for (int i = 0; i < scores.length; i++) {
-// for (int i = 0; i < 5; i++) でもOK！
-    if (scores[i] % 2 == 0) {
-        System.out.println(scores[i]);
-    }
-}
-```
