@@ -1,8 +1,8 @@
 ### 三項演算子
-​
+
 まずはif文のおさらいをしていきます。  
 三項演算子は簡単に説明するとif文を簡略化したものなのでif文とどう違うのか見比べていきましょう。
-​
+
 ```java
 // if文①
 int age = 20;
@@ -13,7 +13,7 @@ if (age >= 20) {
     result = "20歳未満です";
 }
 System.out.println(result);
-​
+
 // if文②
 String gender = "redy";
 if (gender.equals("boy")) {
@@ -22,7 +22,7 @@ if (gender.equals("boy")) {
     result = "女の子です";
 }
 System.out.println(result);
-​
+
 // if文③
 boolean japan = true;
 if (japan) {
@@ -32,33 +32,40 @@ if (japan) {
 }
 System.out.println(result);
 ```
-​
+
 ①では`age`が`20以上`であれば「`20以上です`」、そうでなければ「`20未満です`」を出力します。  
 ②では`gender`が`boy`であれば「`男の子です`」、そうでなければ「`女の子です`」を出力します。  
 ③では`japan`が`true`であれば「`日本人です`」、`false`であれば「`日本人ではありません`」を出力します。  
   
-​
+
 上の３つのif文を三項演算子にしてみます。      
-​
+
 ```java
 // 三項演算子①
 int age = 20;
 System.out.println(age >= 20 ? "20歳以上です" : "20歳未満です");
-​
+
 // 三項演算子②
 String gender = "redy";
 System.out.println(gender.equals("boy") ? "男の子です" : "女の子です");
-​
+
 // 三項演算子③
 boolean japan = true;
 System.out.println(japan == "boy" ? "日本人です" : "日本人ではありません");
 ```
+
+三項演算子は以下のように書きます。
+```java
+条件式 ? 式1 : 式2
+```
+条件式の値がtrueだった場合に式1を処理し、falseだった場合に式2を処理します。  
+
 ①を例に挙げて解説すると`age >= 20 ?`がif文の`if (age >= 20)`の役割をしています。  
 また、`age`が`20以上`だった場合は`20歳以上です`を出力し、`0～19`の場合は`20歳未満です`を出力しています。`:`はif文の`else`の役割をしています。
-​
+
 三項演算子にするとかなり簡単で見やすくなりました。  
 if文では何行も書かなければいけなかった文が三項演算子では1行になっています。
-​
+
 ①～③の問題は単純なif文を三項演算子にした場合です。  
 次に複雑なif文を三項演算子に直していきます。  
 ​
