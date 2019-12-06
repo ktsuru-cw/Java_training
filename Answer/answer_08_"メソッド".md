@@ -30,7 +30,7 @@ public class Main {
 public class Main {
  
     public static void main(String[] args) {
-        int num = 5;
+	int num = 5;
 	String result = "";
 	
 	result = OddEven(num);
@@ -39,7 +39,7 @@ public class Main {
     }
 
     public static String OddEven(int num) {
-        String result = "";
+	String result = "";
 	
 	if(num % 2 == 0){
 		result = num + "は偶数です。";
