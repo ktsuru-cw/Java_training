@@ -42,9 +42,9 @@ public class Main {
         String result = "";
 	
         if(num % 2 == 0){
-		result = num + "は偶数です。";
+                result = num + "は偶数です。";
         } else {
-		result = num + "は奇数です。";
+                result = num + "は奇数です。";
         }
 	
         return result;
@@ -68,9 +68,9 @@ public class Main {
         result = num % 2;
 	
         if(result == 0){
-		System.out.println(num + "は偶数です。")
+                System.out.println(num + "は偶数です。")
         } else {
-		System.out.println(num + "は奇数です。")
+                System.out.println(num + "は奇数です。")
         }
     }
 }
