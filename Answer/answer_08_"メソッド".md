@@ -30,24 +30,24 @@ public class Main {
 public class Main {
  
     public static void main(String[] args) {
-	int num = 5;
-	String result = "";
+        int num = 5;
+        String result = "";
 	
-	result = OddEven(num);
+        result = OddEven(num);
 	
-	System.out.println(result);
+        System.out.println(result);
     }
 
     public static String OddEven(int num) {
-	String result = "";
+        String result = "";
 	
-	if(num % 2 == 0){
+        if(num % 2 == 0){
 		result = num + "は偶数です。";
-	} else {
+        } else {
 		result = num + "は奇数です。";
-	}
+        }
 	
-	return result;
+        return result;
     }
 }
 ```
@@ -59,19 +59,19 @@ public class Main {
     public static void main(String[] args) {
         int num = 5;
 	
-	OddEven(num);
+        OddEven(num);
     }
 
     public static void OddEven(int num) {
         int result = 0;
 	
-	result = num % 2;
+        result = num % 2;
 	
-	if(result == 0){
+        if(result == 0){
 		System.out.println(num + "は偶数です。")
-	} else {
+        } else {
 		System.out.println(num + "は奇数です。")
-	}
+        }
     }
 }
 ```
