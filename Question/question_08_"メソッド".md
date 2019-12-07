@@ -20,7 +20,7 @@ public class Main {
 	System.out.println(menseki);
     }
 
-    public static float Calculate(int x, int y) {
+    public static float calculate(int x, int y) {
         /* TO DO */
 	
 	return /* TO DO */
@@ -41,7 +41,7 @@ public class Main {
 	/* TO DO */
     }
 
-    public static /* TO DO */ OddEven(/* TO DO */) {
+    public static /* TO DO */ oddEven(/* TO DO */) {
         /* TO DO */
     }
 }
