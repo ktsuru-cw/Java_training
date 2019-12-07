@@ -9,12 +9,12 @@ public class Main {
 	int hight = 5;
 	int menseki = 0;
 	
-        menseki = Calculate(buttom, hight);
+        menseki = calculate(buttom, hight);
   
 	System.out.println(menseki);
     }
 
-    public static float Calculate(int x, int y) {
+    public static float calculate(int x, int y) {
         int result = (x * y) / 2;
 	
 	return result;
@@ -33,12 +33,12 @@ public class Main {
         int num = 5;
         String result = "";
 	
-        result = OddEven(num);
+        result = oddEven(num);
 	
         System.out.println(result);
     }
 
-    public static String OddEven(int num) {
+    public static String oddEven(int num) {
         String result = "";
 	
         if(num % 2 == 0){
@@ -59,10 +59,10 @@ public class Main {
     public static void main(String[] args) {
         int num = 5;
 	
-        OddEven(num);
+        oddEven(num);
     }
 
-    public static void OddEven(int num) {
+    public static void oddEven(int num) {
         int result = 0;
 	
         result = num % 2;
