@@ -174,3 +174,28 @@ public class Main {
 	}
 }
 ```
+
+11.引数で渡した動物の鳴き声を表示するプログラムを作成しましょう
+```java
+public class Main {
+	public static void main(String[] args) {
+
+		String animal = "猫"
+
+    		animalCry(animal);
+	}
+  
+	public static void animalCry(String animal) {
+  
+		int i = 0;
+		String[] animals = {"猫", "犬", "鳥"};
+		String[] cries = {"にゃー", "ワンワン", "ピーピー"};
+		
+		for (i == 0; i < animals.length; i++){
+			if(animals[i].equals(animal)){
+				System.out.println(cries[i]);
+			}
+		} 
+	}
+}
+```
