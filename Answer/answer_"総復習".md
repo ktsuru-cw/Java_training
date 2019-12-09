@@ -194,6 +194,7 @@ public class Main {
 		for (i == 0; i < animals.length; i++){
 			if(animals[i].equals(animal)){
 				System.out.println(cries[i]);
+				break;
 			}
 		} 
 	}
