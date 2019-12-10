@@ -51,7 +51,7 @@ System.out.println(gender.equals("boy") ? "男の子です" : "女の子です")
 
 // 三項演算子③
 boolean japan = true;
-System.out.println(japan == "boy" ? "日本人です" : "日本人ではありません");
+System.out.println(japan ? "日本人です" : "日本人ではありません");
 ```
 
 三項演算子は以下のように書きます。
