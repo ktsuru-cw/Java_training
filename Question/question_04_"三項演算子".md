@@ -64,9 +64,9 @@ if (drink.equals("お茶")) {
 // 三項演算子
 String drink = "";
 System.out.println(
-    drink.equals(/* TODO */) : 
-    drink.equals(/* TODO */) : 
-    drink.equals(/* TODO */) : 
+    drink.equals(/* TODO */)(/* TODO */) : 
+    drink.equals(/* TODO */)(/* TODO */) : 
+    drink.equals(/* TODO */)(/* TODO */) : 
     "これは飲み物です"
 );
 ```
