@@ -15,7 +15,7 @@ if (age >= 20) {
 System.out.println(result);
 
 // if文②
-String gender = "redy";
+String gender = "girl";
 if (gender.equals("boy")) {
     result = "男の子です";
 } else {
