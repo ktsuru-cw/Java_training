@@ -46,7 +46,7 @@ int age = 20;
 System.out.println(age >= 20 ? "20歳以上です" : "20歳未満です");
 
 // 三項演算子②
-String gender = "redy";
+String gender = "girl";
 System.out.println(gender.equals("boy") ? "男の子です" : "女の子です");
 
 // 三項演算子③
