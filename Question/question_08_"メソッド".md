@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         int buttom = 7;
 	int hight = 5;
-	int menseki = 0;
+	float menseki = 0;
 	
 	/* TO DO */
 	
