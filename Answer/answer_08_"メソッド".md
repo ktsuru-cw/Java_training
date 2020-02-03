@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int buttom = 7;
 	int hight = 5;
-	int menseki = 0;
+	float menseki = 0;
 	
         menseki = calculate(buttom, hight);
   
@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static float calculate(int x, int y) {
-        int result = (x * y) / 2;
+        float result = (x * y) / 2;
 	
 	return result;
     }
