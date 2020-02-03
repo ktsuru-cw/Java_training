@@ -30,7 +30,7 @@ public static void main(String args[]){
 配列変数名.length
 ```
 
-例えばコマンドライン引数が必ず1つ指定されていなければいけない場合、例えば次のような記述を行います。  
+例えばコマンドライン引数が必ず1つ指定されていなければいけない場合、次のような記述を行います。  
 ```java
 public static void main(String args[]){
   if(args.length != 1){
